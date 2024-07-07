@@ -1,0 +1,10 @@
+input{
+    background-color: #ECECEC;
+    border-radius: 7px;
+    border: none;
+    border-bottom: solid 3px #115CB4;
+    padding: 10px; /* Espaciado interno general */
+    padding-left: 20px; /* Espaciado adicional a la izquierda para centrar el placeholder */
+    font-size: 16px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el width y height */
+}
