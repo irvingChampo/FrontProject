@@ -1,6 +1,6 @@
+import Camara from "../../../public/src/img/alerta.png";
+import Card from "../../Molecule/CardImg/CardImg";
 import Header from "../../Molecule/Header/Header";
-import Card from "../../Molecule/CardImg/CardImg"
-import Camara from "../../../public/src/img/alerta.png"
 import "./camAlert.css";
 
 function CamAlert() {

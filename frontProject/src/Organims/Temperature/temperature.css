@@ -1,0 +1,33 @@
+.container-temperatura{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.img-grafica{
+    width: 60%;
+    height: auto;
+}
+
+.container-grafica{
+    width: 70%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info{
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-right: 15px;
+}
