@@ -1,19 +1,22 @@
 import Header from "../../Molecule/Header/Header";
 import Camara from "../../../public/src/img/humedad.png"
-import Grafica from "../../../public/src/img/grafico.png";
-import "./temperature.css";
+import "./sensores.css";
 
 // eslint-disable-next-line react/prop-types
 function Temperature () {
     return ( 
         <section className="container-temperatura">
-            <Header imgSrc={Camara} title={"Security Cam"} homeLink={"Home"} camaraLink={"Camara"} alertaLink={"Alerta"} />
+            <Header imgSrc={Camara} title={"Security Cam"} />
             <div className="container-grafica">
-                <img className="img-grafica" src={Grafica}/>
+                <h2>grafica</h2>
             </div>
             <div className="container-info">
-                <h1 className="title">Temperatura:</h1>
-                <h3>00°C</h3>
+                <div className="distancia">
+                    <h2>Distancia:</h2>
+                </div>
+                <div className="movimiento">
+                    <h2>Movimiento</h2>
+                </div>
             </div>
         </section>
      );

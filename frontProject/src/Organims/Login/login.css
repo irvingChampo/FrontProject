@@ -44,6 +44,11 @@ body{
     align-items: center;
 }
 
+.textura{
+    font-size: 200%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+}
+
 .icon{
     width: 70%;
     height: 10%;
