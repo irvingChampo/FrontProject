@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Hacker from "../../../public/src/img/hacker.png";
+import Sensor from "../../../public/src/img/ultrasonico.png";
 import Button from "../../Atom/Button/Button";
 import Input from "../../Atom/Input/Input";
 import "./login.css";
@@ -10,7 +10,7 @@ function Login() {
         <section className="container">
             <div className="container-login">
                 <div className="container-left">
-                    <img className="logo" src={Hacker}/>
+                    <img className="logo" src={Sensor}/>
                     <Link className='Link' to={"/register"}><Button text={"Sign up"} width={"100%"} height={"100%"} radio={"25px"} margen={"10px"} /></Link>
                 </div>
                 <div className="container-right">
