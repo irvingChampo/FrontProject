@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import "./header.css";
 
 
-// eslint-disable-next-line react/prop-types
 const Header = ({ imgSrc, title, homeLink, camaraLink, alertaLink, temperaturaLink }) => {
     return (
       <>

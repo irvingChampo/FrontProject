@@ -13,7 +13,7 @@ function Login() {
                     <div className="icon"><h1>Security Cam</h1></div>
                     <Input type={"email"} placeholder={"Email"} width={"70%"} height={"10%"}/>
                     <Input type={"email"} placeholder={"Password"} width={"70%"} height={"10%"}/>
-                    <Link className='Link' to={"/home"}><Button text={"Sign up"} width={"80%"} height={"100%"} radio={"10px"} margen={"0px"} color={"#4D85C7"}/></Link>
+                    <Link className='Link' to={"/sensores"}><Button text={"Sign up"} width={"80%"} height={"100%"} radio={"10px"} margen={"0px"} color={"#4D85C7"}/></Link>
                 </div>
                 <div className="container-left-SignUp">
                     <img className="logo" src={Sensor}/>

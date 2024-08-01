@@ -17,7 +17,7 @@ function Login() {
                     <div className="icon"><h1 className='textura'>Security Cam</h1></div>
                     <Input type={"email"} placeholder={"Email"} width={"70%"} height={"10%"}/>
                     <Input type={"email"} placeholder={"Password"} width={"70%"} height={"10%"}/>
-                    <Link className='Link' to={"/home"}><Button text={"Login"} width={"80%"} height={"100%"} radio={"10px"} margen={"10px"} color={"#4D85C7"}/></Link>
+                    <Link className='Link' to={"/sensores"}><Button text={"Login"} width={"80%"} height={"100%"} radio={"10px"} margen={"10px"} color={"#4D85C7"}/></Link>
                 </div>
             </div>
         </section>
