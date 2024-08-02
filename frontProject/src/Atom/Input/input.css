@@ -3,8 +3,8 @@ input{
     border-radius: 7px;
     border: none;
     border-bottom: solid 3px #115CB4;
-    padding: 10px; /* Espaciado interno general */
-    padding-left: 20px; /* Espaciado adicional a la izquierda para centrar el placeholder */
+    padding: 10px; 
+    padding-left: 20px;
     font-size: 16px;
-    box-sizing: border-box; /* Asegura que el padding no afecte el width y height */
+    box-sizing: border-box;
 }

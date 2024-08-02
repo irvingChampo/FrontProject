@@ -6,9 +6,9 @@
     border: 1px solid #ccc;
     background-color: #115CB4;
     transition: background-color 0.3s;
-    font-weight: bold; /* Hace la letra más gruesa */
-    display: flex; /* Hace que el contenedor use flexbox */
-    justify-content: center; /* Centra el contenido horizontalmente */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
     align-items: center; 
   }
   

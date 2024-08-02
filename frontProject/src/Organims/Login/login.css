@@ -46,7 +46,7 @@ body{
 
 .textura{
     font-size: 200%;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .icon{
